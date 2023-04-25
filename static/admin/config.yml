@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: JSMarsh813/Jillyanne
   branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
