@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: test
+title: test3
 image: /img/steak.png
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
