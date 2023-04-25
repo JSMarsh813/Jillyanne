@@ -69,12 +69,12 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    {
-      resolve: `gatsby-plugin-netlify-identity`,
-      options: {
-        url: `jillysannescarnivorishlife.netlify.app/`, // required!
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-netlify-identity`,
+    //   options: {
+    //     url: `jillysannescarnivorishlife.netlify.app/`, // required!
+    //   },
+    // },
     {
       resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
       options: {
