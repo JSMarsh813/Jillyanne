@@ -36,6 +36,7 @@ module.exports = {
         name: "images",
       },
     },
+    `gatsby-plugin-netlify-cms-paths`,
     `gatsby-plugin-image`,
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
@@ -43,7 +44,7 @@ module.exports = {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          'gatsby-remark-relative-images',
+          `gatsby-plugin-netlify-cms-paths`,
           {
             resolve: "gatsby-remark-images",
             options: {
